@@ -3,15 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "JEST_WORKER_ID=1 docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
+    "build": "docusaurus build --no-minify",
     "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "clear": "docusaurus clear" 
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
